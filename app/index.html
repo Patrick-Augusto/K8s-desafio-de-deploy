@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css" media="screen" />
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="form-main">
+        <div id="form-div">
+            <form class="form" id="contact" method="post">
+                <p class="name">
+                    <input name="name" type="text" class="feedback-input" placeholder="Nome" id="name" required />
+                </p>
+                <p class="email">
+                    <input name="email" type="email" class="feedback-input" id="email" placeholder="Email" required />
+                </p>
+                <p class="text">
+                    <textarea name="comment" class="feedback-input" id="comment" placeholder="Comentário" required></textarea>
+                </p>
+                <div class="submit">
+                    <button type="button" id="button-blue">Enviar</button>
+                    <div class="ease"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
