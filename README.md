@@ -1,8 +1,5 @@
 # K8s-desafio-de-deploy
 
-# K8s-desafio-de-deploy
-
-![Kubernetes Logo](https://github.com/Patrick-Augusto/K8s-desafio-de-deploy/blob/main/k8s-logo.png)
 
 ## Descrição
 
